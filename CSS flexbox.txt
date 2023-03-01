@@ -1,0 +1,51 @@
+CSS Flexbox
+
+> display: flex
+    
+        - justify-content:
+            flex-start = coloca os elementos no início do container horizontalmente
+            flex-end = coloca os elementos no final do container horizontalmente
+            center = coloca os elementos no centro do container horizontalmente
+            space-between = cria um espaço igual entre cada elemento horizontalmente
+            space-around = cria um espaço igual entre cada elemento e entre os elementos e o container horizontalmente
+            
+            - align-items:
+            flex-start = coloca os elementos no início do container verticalmente
+            flex-end = coloca os elementos  no final do container verticalmente
+            center = coloca os elementos no centro do container verticalmente
+            baseline = 
+            stretch = estica os elementos para cobrirem o elemento todo verticalmente
+            
+            - flex-direction:
+            row = dispõe os elementos em linha
+            row-reverse = dispõe os elementos em linha de forma reversa
+            column = dispõe os elementos em coluna
+            column-reverse = dispõe os elementos em coluna de forma reversa
+            
+            - order:
+            -2 = mais à esquerda
+            -1 = à esquerda
+            0 = meio
+            1 = à direita
+            2 = mais à direita
+            
+            - align-self:
+            * tem as mesmas propriedades que o align-items mas só mexe os elementos que estiverem sendo modificado com a classe
+            
+            - flex-wrap
+            nowrap = coloca todos os elementos em uma linha só
+            wrap = organiza os elementos em mais de uma linha se necessário
+            wrap-reverse = organiza os elementos em mais de uma linha se necessário só que de forma reversa
+                       
+            - flex-flow:
+            * as propriedades flex-direction e flex-wrap são comumente usadas juntas, por isso foi criado o flex-flow
+            - aceita todas as propriedades de flex-direction e flex-wrap, só que são usadas ao mesmo tempo
+            
+            - align-content:
+            flex-start = coloca as linhas no início do container verticalmente
+            flex-end = coloca as linhas no final do container verticalmente
+            center = coloca as linhas no centro do container verticalmente
+            space-between = cria um espaço igual entre cada linha
+            space-around = cria um espaço igual entre cada linha e o container
+            stretch = estica as linhas para cobrirem todo o container            
+            
